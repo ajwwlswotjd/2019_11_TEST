@@ -1,0 +1,339 @@
+#header, #container, #content {
+    position: relative;
+}
+
+#content {
+    min-width: 1050px;
+    padding-bottom: 170px;
+}
+
+.mypage_top {
+    width: 100% !important;
+    padding: 50px 0;
+    margin-bottom: -20px;
+    background-color: #f7f7f7;
+}
+
+.page_aticle {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.mypage_top .mypagetop_user {
+    overflow: hidden;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.mypage_top .inner_mypagetop {
+    overflow: hidden;
+    width: 100%;
+    background: url(https://res.kurly.com/pc/service/common/1904/bg_mypagetop.png) repeat-y 0 0;
+}
+
+.mypage_top .grade_user {
+    float: left;
+    width: 444px;
+    height: 100%;
+    padding: 28px 0 30px 30px;
+    background-color: #fff;
+}
+
+.mypage_top .grade_user .grade {
+    overflow: hidden;
+    width: 100%;
+    padding-right: 26px;
+}
+
+.mypage_top .next {
+    overflow: hidden;
+    width: 100%;
+    padding: 22px 0 0 84px;
+}
+
+.page_aticle button, .page_aticle input, .page_aticle select, .page_aticle * {
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+body, input, select, textarea, button {
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #4c4c4c;
+    font-size: 12px;
+    max-width: 100%;
+}
+
+.mypage_top .grade_user .class6 {
+    border: 1px solid #949296;
+    background-color: #fff;
+    color: #949296;
+}
+.mypage_top .grade_user .ico_grade {
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin: 2px 20px 0 0;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    word-break: break-all;
+}
+
+.mypage_top .grade_user .inner_grade {
+    display: table;
+    width: 100%;
+    height: 64px;
+    padding-bottom: 3px;
+}
+
+.mypage_top .grade_user .in_grade {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    line-height: 18px;
+    color: #949296;
+}
+
+.mypage_top .grade_bnenfit {
+    overflow: hidden;
+}
+
+.mypage_top .grade_user .user {
+    overflow: hidden;
+    padding: 2px 0 11px;
+}
+
+.mypage_top .name {
+    overflow: hidden;
+    float: left;
+    max-width: 263px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333;
+    line-height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mypage_top .txt {
+    float: left;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.mypage_top .list_mypage {
+    float: right;
+    width: 602px;
+}
+
+.mypage_top .list_mypage li {
+    float: left;
+    width: 198px;
+    margin-right: 4px;
+    background-color: #fff;
+}
+
+.mypage_top .list_mypage .link {
+    float: left;
+    width: 100%;
+    padding: 29px 0 0 30px;
+}
+
+.mypage_top .list_mypage .tit {
+    padding-bottom: 26px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+}
+
+.mypage_top .list_mypage .info {
+    font-weight: 700;
+    font-size: 20px;
+    color: #5f0080;
+    line-height: 28px;
+}
+
+.mypage_top .list_mypage .user_kurlypass {
+    margin-right: 0;
+}
+
+.mypage_top .grade_user .benefit {
+    padding-top: 4px;
+}
+.mypage_top .benefit {
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+}
+
+/* 주석  */
+
+.page_aticle.aticle_type2 {
+    padding-top: 70px;
+}
+
+.page_aticle {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+#snb {
+    float: left;
+    width: 200px;
+}
+
+#snb .tit_snb {
+    padding: 0 0 30px 2px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    color: #4a4a4a;
+}
+
+#snb .inner_snb {
+    border: 1px solid #dcdbde;
+    border-bottom: 0 none;
+}
+
+#snb .list_menu li {
+    border-bottom: 1px solid #dcdbde;
+}
+
+#snb .list_menu li.on a, #snb .list_menu li a:hover {
+    background: #f7f7f7 url(https://res.kurly.com/pc/ico/1803/ico_arrow_on_12x22.png) no-repeat 174px 50%;
+    background-size: 6px 10px;
+    color: #5f0080;
+}
+#snb .list_menu li a {
+    display: block;
+    overflow: hidden;
+    padding: 16px 0 16px 19px;
+    background: #fff url(https://res.kurly.com/pc/ico/1803/ico_arrow_12x22.png) no-repeat 174px 50%;
+    background-size: 6px 10px;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+}
+
+.page_aticle.aticle_type2 .page_section {
+    float: right;
+    width: 820px;
+}
+
+.page_aticle .head_aticle {
+    padding: 5px 0 24px;
+}
+
+.page_aticle .head_aticle .tit {
+    height: 42px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+}
+
+.page_aticle .head_aticle .tit_sub {
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.section_orderlist .list_order {
+    padding-top: 10px;
+    border-top: 2px solid #5f0080;
+}
+
+.section_orderlist .list_order .no_data {
+    border-bottom: 1px solid #dddfe1;
+}
+.page_aticle .no_data {
+    padding: 50px 0;
+    font-size: 13px;
+    color: #757575;
+    text-align: center;
+}
+
+.conf_pw {
+    padding: 38px 0 24px;
+    border-top: 2px solid #5f0080;
+}
+
+.conf_pw .tit {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+img {
+    border: 0;
+}
+img, video, canvas {
+    max-width: 100%;
+}
+
+.field_pw {
+    padding: 33px 0;
+    border: 2px solid #ddd;
+    text-align: center;
+}
+
+.field_pw .tit_id, .field_pw .tit_pw {
+    padding: 10px 0 10px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.field_pw .txt_id {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #5f0080;
+}
+
+.field_pw .inp_pw {
+    width: 120px;
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid #514859;
+    font-size: 12px;
+    color: #000;
+    line-height: 32px;
+}
+
+.group_btn {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.group_btn .inner_groupbtn {
+    display: inline-block;
+}
+
+.conf_pw .inner_groupbtn .btn_positive {
+    width: 260px;
+    height: 54px;
+    line-height: 54px;
+    background-color: #5f0080;
+    border-radius: 3px;
+}
+
+.group_btn .btn_positive {
+    border: 1px solid #5f0080;
+    background-color: #795b8f;
+    color: #fff;
+}
+.group_btn .btn {
+    overflow: hidden;
+    float: left;
+    width: 150px;
+    height: 42px;
+    font-size: 13px;
+    line-height: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}

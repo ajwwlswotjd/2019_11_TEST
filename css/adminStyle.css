@@ -1,0 +1,48 @@
+/*common*/
+
+@charset "UTF-8";
+@import "./fa/css/all.css";
+@font-face {
+	src : url(/font/noto.otf);
+	font-family: 'noto';
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'noto';
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.tit {
+	text-align: center;
+	font-size: 40px;
+}
+
+.tit.answer {
+	margin-top: 100px;
+}
+
+nav {
+	position: fixed !important;
+	z-index: 100;
+	width: 100% !important;
+	top: 0;
+}
+
+#main {
+	margin-top: 100px;
+}
+
+nav a {
+	scroll-behavior: smooth;
+}
+

@@ -1,0 +1,226 @@
+body, input, select, textarea, button {
+    font-family: 'Malgun Gothic', AppleGothic, dotum;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #4c4c4c;
+    font-size: 12px;
+    max-width: 100%;
+}
+
+#header, #container, #content {
+    position: relative;
+}
+
+#main {
+    /*border-bottom: 1px solid #f7f7f7;*/
+    margin-bottom: 20px;
+}
+
+#content {
+    min-width: 1050px;
+    padding-bottom: 170px;
+}
+
+.page_aticle.aticle_type2 {
+    padding-top: 70px;
+}
+
+.page_aticle {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+#snb {
+    float: left;
+    width: 200px;
+}
+
+#snb .tit_snb {
+    padding: 0 0 30px 2px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    color: #4a4a4a;
+}
+
+#snb .inner_snb {
+    border: 1px solid #dcdbde;
+    border-bottom: 0 none;
+}
+
+.page_aticle button, .page_aticle input, .page_aticle select, .page_aticle * {
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+#snb .list_menu li {
+    border-bottom: 1px solid #dcdbde;
+}
+
+#snb .list_menu li a {
+    display: block;
+    overflow: hidden;
+    padding: 16px 0 16px 19px;
+    background: #fff url(https://res.kurly.com/pc/ico/1803/ico_arrow_12x22.png) no-repeat 174px 50%;
+    background-size: 6px 10px;
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+}
+
+#snb .list_menu li.on a, #snb .list_menu li a:hover {
+    background: #f7f7f7 url(https://res.kurly.com/pc/ico/1803/ico_arrow_on_12x22.png) no-repeat 174px 50%;
+    background-size: 6px 10px;
+    color: #5f0080;
+}
+
+.page_aticle button, .page_aticle input, .page_aticle select, .page_aticle * {
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.page_aticle.aticle_type2 .page_section {
+    float: right;
+    width: 820px;
+}
+
+.page_aticle .head_aticle {
+    padding: 5px 0 24px;
+}
+
+.page_aticle .head_aticle .tit {
+    height: 42px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+}
+
+.xans-board-write .boardWrite2 {
+    table-layout: fixed;
+    border-top: 2px solid #6A3664;
+    line-height: 180%;
+}
+
+.xans-board-write table th {
+    width: 110px;
+    padding: 15px 0 15px 20px;
+    background-color: #F7F5F8;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.boardWrite2 th {
+    text-align: left;
+    padding: 15px 15px;
+    background: #f7f5f8;
+    vertical-align: middle;
+}
+
+.xans-board-write table td {
+    width: auto;
+    padding: 15px 0 15px 10px;
+    height: 23px;
+    /*border-top: 1px solid #e8e8e8;*/
+    border-bottom: 1px solid #e8e8e8;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+#title {
+	height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.xans-board-write table input[type="text"], .xans-board-write table input[type="password"], .xans-board-write table textarea {
+    height: 30px;
+    line-height: 25px;
+    border: 1px solid #d9d9d9;
+    color: #202020;
+}
+
+#qnaNotice .tit {
+    display: block;
+    padding: 4px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+}
+
+#qnaNotice .list {
+    padding-top: 10px;
+}
+
+#qnaNotice .list span {
+    display: block;
+    position: relative;
+    padding-left: 9px;
+}
+
+#qnaNotice .list span:before {
+    content: "- ";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#txtArea {
+	width: 100%;
+	height: 474px;
+	margin-top: 10px;
+	resize: none;
+	padding: 16px 20px;
+}
+
+#table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+element.style {
+    float: none;
+}
+.bhs_button.yb {
+    background-color: #795b8f;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.bhs_button {
+    width: 150px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    background-color: #795b8f;
+    border: 1px solid #5f0080;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    margin-left: 2px;
+    font-size: 13px;
+}
+
+.bhs_button.yb:hover {
+    background-color: #5f0080;
+    color: #fff;
+}
+
+.bhs_button:hover {
+    width: 150px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #5f0080;
+    color: #5f0080;
+    font-size: 15px;
+    float: right;
+    margin-left: 2px;
+    font-size: 13px;
+}

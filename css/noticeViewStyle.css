@@ -1,0 +1,180 @@
+body, input, select, textarea, button {
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #4c4c4c;
+    font-size: 12px;
+    max-width: 100%;
+}
+
+#header, #container, #content {
+    position: relative;
+}
+
+#main {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+#content {
+    min-width: 1050px;
+    padding-bottom: 170px;
+}
+
+.page_aticle {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.page_aticle button, .page_aticle input, .page_aticle select, .page_aticle * {
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.page_aticle .head_aticle {
+    padding: 5px 0 24px;
+    margin-top: 70px;
+}
+
+.page_aticle .head_aticle .tit {
+    height: 42px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+}
+
+.page_aticle .head_aticle .tit_sub {
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.layout-wrapper {
+    position: relative;
+    width: 1050px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.xans-myshop-couponserial {
+    padding-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.boardView {
+    table-layout: fixed;
+    border-top: 2px solid #522671;
+    border-bottom: 1px solid #e8e8e8;
+    color: #353535;
+    line-height: 180%;
+    margin-top: 20px;
+}
+
+.boardView th {
+    width: 130px;
+    padding: 13px 0 13px 20px;
+    background-color: #F7F5F8;
+    border-top: 1px solid #e8e8e8;
+    text-align: left;
+}
+
+.boardView td {
+    width: auto;
+    padding: 13px 0 13px 23px;
+    border-top: 1px solid #e8e8e8;
+}
+
+
+.boardView tr.etcArea td {
+    padding: 0;
+    border: 0;
+}
+
+.boardView tr.etcArea ul {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    border-top: 1px solid #e8e8e8;
+}
+
+.boardView tr.etcArea ul li {
+    float: left;
+}
+
+.boardView tr.etcArea ul .th {
+    float: left;
+    padding: 13px 0 13px 20px;
+    width: 130px;
+    background-color: #F7F5F8;
+}
+
+.boardView tr.etcArea ul .td {
+    float: left;
+    padding: 13px 0 13px 20px;
+    width: 180px;
+}
+
+.xans-element-.xans-myshop.xans-myshop-couponserial td#contents .board_view_content {
+    line-height: 25px;
+    padding: 16px 20px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.xans-element-.xans-myshop.xans-myshop-couponserial td#contents p {
+    line-height: 25px;
+}
+
+.bhs_button.yb {
+    background-color: #795b8f;
+    color: #fff;
+}
+.bhs_button {
+    width: 150px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    background-color: #795b8f;
+    border: 1px solid #5f0080;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    margin-left: 2px;
+    font-size: 13px;
+}
+
+.bhs_button:hover {
+    width: 150px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #5f0080;
+    color: #5f0080;
+    font-size: 15px;
+    float: right;
+    margin-left: 2px;
+    font-size: 13px;
+}
+
+
+.bhs_button.yb:hover {
+    background-color: #5f0080;
+    color: #fff;
+}
